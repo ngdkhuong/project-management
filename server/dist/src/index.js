@@ -32,7 +32,7 @@ app.use("/tasks", taskRoutes_1.default);
 app.use("/search", searchRoutes_1.default);
 app.use("/users", userRoutes_1.default);
 app.use("/teams", teamRoutes_1.default);
-const port = Number(process.env.PORT) || 3000;
+const port = Number(process.env.PORT) || 8000;
 app.listen(port, "0.0.0.0", () => {
     console.log(`Server is running on port ${port}`);
 });
